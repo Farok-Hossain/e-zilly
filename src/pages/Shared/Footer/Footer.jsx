@@ -4,17 +4,21 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="flex flex-row justify-evenly bg-slate-600 h-32 ">
+    <div className="flex flex-row justify-evenly bg-slate-300 h-32 ">
       <div className="flex flex-row justify-start gap-40">
         <div>
-          <p className="text-orange-600 uppercase text-xl ml-[-140px]">
-            Services
-          </p>
+          <h1 className="text-orange-600 uppercase text-xl">Services</h1>
+          <p>Branding</p>
+          <p>Design</p>
+          <p>Marketing</p>
+          <p>Advertisement</p>
         </div>
         <div>
-          <p className="text-orange-600 uppercase text-xl ml-[-50px]">
-            Company
-          </p>
+          <h1 className="text-orange-600 uppercase text-xl">Company</h1>
+          <h4>About us</h4>
+          <h4>Contact</h4>
+          <h4>Jobs</h4>
+          <h4>Press kit</h4>
         </div>
       </div>
       <div>
