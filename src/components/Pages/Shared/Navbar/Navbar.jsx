@@ -1,3 +1,6 @@
+import { FaInstagram } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
@@ -64,6 +67,11 @@ const Navbar = () => {
           </li>
           <li>
             <a>Item 3</a>
+          </li>
+          <li>
+            <Link to="https://www.instagram.com/farok_afs/" target="_blank">
+              <FaInstagram />
+            </Link>
           </li>
         </ul>
       </div>
