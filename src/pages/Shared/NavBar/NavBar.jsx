@@ -48,26 +48,10 @@ const Navbar = () => {
         <a className="btn btn-ghost text-xl text-green-500">EZilly</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
+        <ul className="menu menu-horizontal px-1 gap-3">
+          <Link to="/home">Home</Link>
+          <Link to="/menu">Menu</Link>
+          <Link to="/login">login</Link>
           <li>
             <Link to="https://www.instagram.com/farok_afs/" target="_blank">
               <FaInstagram />
